@@ -1,0 +1,47 @@
+
+
+<!-- File Name: about.ejs
+Student's Name: Aishwarya Pawar
+Student ID: 301299470
+Date: 02-10-2023-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+    <!-- About Page -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <style>
+                body {
+                    background-color: black;
+                }
+    
+                .text-justify {
+                  
+                    text-align: justify;
+                }
+            </style>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img decoding="async" src="img/mypic.jpg" class="img-fluid"  width="70%" alt="About me">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3 style="color: white;">|| ABOUT ME ||</h3>
+                    <p style="color: white;" class="text-justify">! Passionate Software Engineer !</p>
+                    <p style="color: white;" class="text-justify">I'm deeply passionate about crafting innovative solutions and constantly striving to enhance them. My expertise lies in the realm of software engineering, where I thrive in architecting robust applications, transforming abstract ideas into efficient lines of code, and optimizing systems for peak performance.
+
+                    Just like a skilled artist meticulously shapes their canvas, I meticulously sculpt software to perfection, harnessing cutting-edge technologies and coding languages to create seamless, user-friendly experiences. My dedication to this craft extends beyond the screen, as I'm always eager to assist individuals and organizations with their software needs, whether it's debugging, optimizing, or innovating.</p>
+                    <a class="main-btn primary-btn mt-4" href="/img/AishwaryaResume.pdf" download>Download CV</a>
+
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- About Page exit -->
+
+<%- include ('partials/bottom_nav.ejs') %>
+<!-- <%- include ('partials/footer.ejs') %> -->

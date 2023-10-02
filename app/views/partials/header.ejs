@@ -1,0 +1,309 @@
+
+
+<!-- File Name: header.ejs
+Student's Name: Aishwarya Pawar
+Student ID: 301299470
+Date: 02-10-2023-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+
+}
+.head-wrapper{
+    background: rgb(249 249 255);
+    scroll-behavior: smooth;
+  
+}
+ .navbar{
+    max-width: 1100px;
+    width: 90%; 
+    margin: 0 auto;
+} 
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.fas-fa-stream{
+    color: black;
+}
+        ul.navbar-max {
+            list-style: none; 
+            display: inline; 
+            float:right;
+            font-size:20px
+            
+        }
+        
+        ul.navbar-max li {
+            display: inline-block; 
+        }
+        a:link {
+    text-decoration: none;
+}
+
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+/* ********************************************************** */
+
+/* 3 Banner */
+
+.main_bg{
+    background:black;
+}
+.banner_container{
+    max-width: 1180px;
+    margin: 0 auto;
+
+
+}
+.banner_wrapper{
+    margin-top: 40px;
+    margin-bottom: 90px;
+
+}
+.banner_wrapper .col-lg-7 {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.banner_wrapper .banner-content h2::after {
+    content: '';
+    width: 60%;
+    height: 0.125rem;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background: #000;
+    overflow-x: hidden;
+}
+
+
+.main-btn {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(243, 242, 245, 0.3);
+    border: double 0.125rem transparent;
+    padding: 0 2.0625rem;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+}
+
+.primary-btn {
+   background-color: black;
+   color: white;
+}
+
+.secondary-btn {
+   background-color: black;
+   color: white;
+}
+.primary-btn:hover {
+    box-shadow: none;
+    border-color: white;
+    
+}
+
+.secondary-btn:hover {
+    box-shadow: none;
+    border-color:white;
+}
+
+
+.contact-info .style-info{
+    line-height: 1.5;
+    gap: 20px;
+}
+
+.contact_container{
+    background-color: black;
+    border-radius: 20px;
+}
+/* ********************************************************** */
+
+/* About page */
+
+.about_wrapper .single-logo-item {
+    width: 100%;
+    height: 6.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0.0625rem solid var(--bg-gray);
+    box-shadow: none;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.about_wrapper .single-logo-item:hover {
+    border: 0.0625rem solid transparent;
+    box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
+}
+
+.about_wrapper .client-info {
+    padding: 1.5625rem 1.875rem;
+    background: var(--bg-light);
+    position: relative;
+    margin-top: 1.5625rem;
+}
+
+.about_wrapper .client-info:before {
+    content: '';
+    position: absolute;
+    top: -1.5625rem;
+    left: -3.4375rem;
+    background: url('../img/client-info.webp');
+    background-repeat: no-repeat;
+    height: 10.9375rem;
+    width: 10.9375rem;
+}
+
+.client-info .large {
+    color: var(--secondary-text);
+    font-family: var(--primary-font);
+    font-size: 6.25rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 9;
+}
+
+.client-info .smll {
+    text-align: left;
+    color: var(--text-black);
+    font-family: var(--primary-font);
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+    font-weight: 500;
+}
+
+.call-now span {
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.call-now p {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    margin-bottom: 0.3125rem;
+}
+
+/* ********************************************************** */
+
+.btn{
+    margin-bottom: 30px;
+}
+
+.submit-btn{
+    margin-top: 30px;
+
+}
+
+/* ********************************************************** */
+
+
+/* footer */
+.footer_wrapper{
+    background-color: black;
+    color: white;
+
+}
+.footer_wrapper .footer-logo img {
+    max-width: 12.5rem;
+    height: auto;
+}
+
+.footer_wrapper .social-icon li {
+    margin: 0.375rem;
+}
+
+.footer_wrapper .social-icons a {
+    line-height: 1.875rem;
+    font-size: 1.5625rem;
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    margin: 0 0.625rem;
+}
+
+.footer_wrapper .social-icons a:hover {
+    color: whitesmoke;
+}
+
+.footer_wrapper .copyright-text p {
+    font-size: 0.6875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.footer_wrapper .footer-text a {
+    color: whitesmoke;
+}
+
+
+
+    </style>
+
+</head>
+<body>
+
+</body>
+

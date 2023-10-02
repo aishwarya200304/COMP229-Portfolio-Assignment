@@ -1,0 +1,67 @@
+
+<!-- File Name: index.ejs
+Student's Name: Aishwarya Pawar
+Student ID: 301299470
+Date: 02-10-2023-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+
+    <!-- Home page-->
+    <div class="main_bg">
+
+                <div class="banner_container">
+
+                    <section id="home" class="banner_wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                                    <h2 class="text-uppercase position-relative" style="color: white;">WELCOME TO MY PORTFOLIO!</h2>
+                                    <h3 class="text-uppercase" style="color: white;">HI, I AM AISHWARYA PAWAR...</h3>
+
+                
+                                <h5 class="text-uppercase"><span class="auto-type"></span></h5> 
+                
+                                    <!-- <h5 class="text-uppercase">Frontend Developer</h5> -->
+                
+                                    <div class="mt-5">
+                                        <a class="main-btn primary-btn" href="#">Hire Me</a>
+                                        <a class="main-btn secondary-btn ms-4" href="/img/AishwaryaResume.pdf" download>Get CV</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 order-lg-2 order-1">
+                                    <div class="top-right-img">
+                                        <img decoding="async" src="/img/homepagepic.png" class="img-fluid" width="90%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            
+                </div>
+
+
+    </div>
+    <!-- Home Page  exit-->
+
+
+    
+
+    <script>
+
+        var typed = new Typed(".auto-type", {
+            strings: ["Programmer", "Back-End Developer", "Front-End Developer", "Software Engineer"],
+            typeSpeed: 165,
+            backSpeed: 165,
+            loop: true
+        });
+
+        document.querySelector(".auto-type").style.color = "white";
+    </script>
+
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <!-- <%- include ('partials/footer.ejs') %> -->
